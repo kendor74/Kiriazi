@@ -8,7 +8,7 @@ const e = (e) => console.log(e),
       ? n.setAttribute("data-theme", "light")
       : n.setAttribute("data-theme", "dark");
   },
-  r = { wordList: ["ثلاجات", "غسالات", "شاشات"], Interval: 3e3 },
+  r = { wordList: ["ثلاجات", "غسالات","فريزر","تاكيفات"], Interval: 3e3 },
   s = (e) => (document.body.style.overflow = "hidden"),
   a = (e) => (document.body.style.overflow = ""),
   l = (e) => {
