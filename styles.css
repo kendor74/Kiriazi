@@ -550,8 +550,8 @@ header {
     height: var(--screen-height);
     width: 100%;
     position: relative;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(assets/promo.jpg) no-repeat center fixed;
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/promo.jpg) no-repeat center fixed;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(assets/all.webp) no-repeat center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/all.webp) no-repeat center fixed;
     background-size: cover;
     background-position: center top
 }
@@ -807,7 +807,7 @@ footer {
   }
   
   .footer-hotline {
-    background-color: #f1c40f;
+    background-color: #27e67c;
     color: black;
     padding: 15px 30px;
     border-radius: 10px;
@@ -910,7 +910,7 @@ footer {
 
     header {
         height: 100vh;
-        background-position: 42%
+        background-position: 57%
     }
 
     section.services {
